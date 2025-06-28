@@ -1,0 +1,58 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+.eggs/
+dist/
+build/
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# VSCode
+.vscode/
+
+# PyCharm
+.idea/
+
+# Docker
+*.log
+docker-compose.override.yml
+.env
+
+# MLflow
+mlflow/mlruns/
+mlflow/artifacts/
+
+# Airflow
+airflow/logs/
+airflow/.env
+airflow/config/airflow.cfg
+
+airflow/airflow.db
+airflow/unittests.cfg
+
+airflow/__pycache__/
+
+# Data
+shared/data/
+!shared/data/README.md
+
+# Models
+shared/models/
+!shared/models/README.md
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Others
+*.swp
+*.swo
+*.bak
+*.tmp 
