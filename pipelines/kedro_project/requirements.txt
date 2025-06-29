@@ -1,0 +1,8 @@
+ipython>=8.10
+jupyterlab>=3.0
+kedro~=0.19.14
+notebook
+pandera>=0.18.0
+pandas>=1.5.0
+numpy>=1.21.0
+scikit-learn>=1.1.0
