@@ -36,7 +36,7 @@ loggers:
   kedro:
     level: INFO
 
-  kedro_project:
+  ct:
     level: INFO
 
 root:

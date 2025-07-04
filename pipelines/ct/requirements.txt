@@ -1,0 +1,11 @@
+ipython>=8.10
+jupyterlab>=3.0
+kedro~=0.19.14
+kedro-datasets
+mlflow
+scikit-learn
+optuna
+pandas
+torch
+lightgbm
+notebook

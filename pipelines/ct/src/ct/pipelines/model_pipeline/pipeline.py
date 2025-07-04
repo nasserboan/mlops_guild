@@ -27,5 +27,5 @@ def create_pipeline(**kwargs) -> Pipeline:
                                           "best_model_name",
                                           "params:model_pipeline"],
                                           outputs="study"),
-        node(log_optimized_model, inputs="study", outputs="optimized_model_name"),
+        node(log_optimized_model, inputs=["study", "x_train_scaled", "params:model_pipeline"], outputs="optimized_model_name"),
     ])

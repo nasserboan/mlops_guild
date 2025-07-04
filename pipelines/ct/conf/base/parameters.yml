@@ -18,12 +18,12 @@ data_pipeline:
 
 model_pipeline:
   mlflow_params:
-    tracking_uri: "http://localhost:5000"
+    tracking_uri: "http://mlflow:5000"
     experiment_name: "revenue_prediction"
   baseline_model_params:
-    linear_regression:
-      max_iter: 1000
-      tol: 1e-3
+    svr:
+      kernel: "rbf"
+      degree: 3
     lightgbm:
       n_estimators: 100
       learning_rate: 0.1

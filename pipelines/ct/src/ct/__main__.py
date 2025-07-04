@@ -1,5 +1,5 @@
-"""kedro_project file for ensuring the package is executable
-as `kedro-project` and `python -m kedro_project`
+"""ct file for ensuring the package is executable
+as `ct` and `python -m ct`
 """
 import sys
 from pathlib import Path
